@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+<mate charest="UTF-8">
+<title>UNICORN</title>
+<link rel="stylesheet" href="style.css">
+<script language="JavaScript">
+function showClickTime(){
+    var Digital=new Date()
+  var hours=Digital.getHours()
+  var minutes=Digital.getMinutes()
+  var seconds=Digital.getSeconds()
+  var clockd="AM" 
+
+
+  if (hours>12){
+   clockd="PM"
+   hours=hours-12
+  }
+  if (hours==0)
+   hours=12
+  if (minutes<=9)
+   minutes="0"+minutes
+  if (seconds<=9)
+   seconds="0"+seconds
+   var clocktime=hours+":"+minutes+":"+seconds+" "+clockd
+   clockSpan.innerHTML="<b style='font-size:12;color:white;'>"+clocktime+"</b>"
+   setTimeout("showClickTime()",1000)
+}
+window.onload=showClickTime;
+</script>
+</head>
+
+<body background="https://www.ralentirtravaux.com/images/mercure-confiant-bacchus.jpg">
+
+<center><img Src="https://logo-maker-api.s3.us-west-2.amazonaws.com/projects/5fbc470caf08f00d75728786/thumbnail.png?AWSAccessKeyId=AKIA6LFXYJ6BXG4EKM6A&Expires=1606261956&Signature=DnpToQJzvVnOhQZIm7rqzfVZdww%3D" height="150" width="150" alt="logo"></center>
+<span id=clockSpan></span>
+<div class="container">
+<FORM  target="_blank" method=GET action="http://www.google.com/search">
+<input TYPE=text name=q size=22 maxlength=255 value="">
+<input type=hidden name=ie value=windows-1256>
+<input type=hidden name=oe value=windows-1256>
+<input type=submit name=btnG VALUE="Google Search">
+</FORM>
+<nav>
+    <ul>
+        
+          <li><a herf="">حول</a></li>
+         
+            <li><a herf="">الأساطير</a></li>
+       
+             <li><a herf="">الرئيسية</a></li>
+    </ul>
+  </nav>
+    </div>
+    <div class="main">
+        <div class="main-text">
+         <h1 class="text"> الاساطير الصينية</h1>
+        </div>
+    </div>
+    </div>
+    <div class="cards">
+         <div class="card">
+		 <div class = "photo">
+<img Src="https://www.japan-guide.com/g16/5801_01.jpg" height="250" width="300" alt="الاعمدة البشرية" class="card-img">
+              </div>
+			  <div class="cards-text">
+         <h1 class="text"> اساطير صينية </h1>
+         <h3 class="text"> جيش التيراكوتا الصيني </h3>
+        </div>
+    </div>
+    </div>
+    <div class="textbox">أمر إمبراطور الصين الأول " كين شين هوانج " ببناء هذا الجيش ليتم دفنه معه عند الموت , وفعلاً
+عندما مات ُدفن مع جيوشه وجنوده وإداريين وموسيقيين وأواني فخاريه قي ّمه , والعديد من الأشياء المدهشه وسط 100 نهر ُمطعّم بالزئبق
+حيث شارك 700,000 شخص لبناء الآف من التماثل الطينيه الغير متشابهه بملامح دقيقه لدرجه
+مدهشه! ووضعها في أفران تصل درجة حرارتها لألف درجه مئويه, ثم تركها لتبرد وتلوينها وتزيينها ! , وقد تم بناء هذا الضريح بشكل يجعل من الصعب على أي شخص اكتشافه , وبالفعل لم يتم أكتشافها الإ بالصدفه في عام 1974 حين كان مجموعه من المزارعين المحليين يقومون بحفر بئر
+, ليكتشفوا هذا الجيش الأسطوري .
+ويتوقع الخبراء أن هناك العديد من الحفر التي تحتوي المزيد من جنود " التيراكوتا" ولم تُكتشف بعد .
+وقد أكتشف العلماء بالفعل وجود نسب كبيرة من الزئبق في تربة المنطقة المحيطة بالضريح مما جعل هذه الأسطورة تصبح حقيقة!
+بعضهم أعتبر هذا الجيش من عجائب الدنيا السبع لتصبح هي الثامنة .
+ </div>
+		<div class="card">
+		<div class = "photo">	
+  <img src="https://static01.nyt.com/images/2018/02/25/travel/25frugal-xian-1/25frugal-xian-1-superJumbo.jpg" alt="جيش التيراكوتا" height="500" width="500">
+		</div>
+		<div class="cards-text">
+         <h3>جيش التيراكوتا الصيني</h3>
+         </div>
+            </div>
+</body>
+
+</html>

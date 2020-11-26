@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<mate charest="UTF-8">
+<link rel="stylesheet" href="style.css">
+<title>UNICORN</title>
+<script language="JavaScript">
+function showClickTime(){
+    var Digital=new Date()
+  var hours=Digital.getHours()
+  var minutes=Digital.getMinutes()
+  var seconds=Digital.getSeconds()
+  var clockd="AM" 
+
+
+  if (hours>12){
+   clockd="PM"
+   hours=hours-12
+  }
+  if (hours==0)
+   hours=12
+  if (minutes<=9)
+   minutes="0"+minutes
+  if (seconds<=9)
+   seconds="0"+seconds
+   var clocktime=hours+":"+minutes+":"+seconds+" "+clockd
+   clockSpan.innerHTML="<b style='font-size:12;color:white;'>"+clocktime+"</b>"
+   setTimeout("showClickTime()",1000)
+}
+window.onload=showClickTime;
+</script>
+</head>
+
+<body background="https://www.ralentirtravaux.com/images/mercure-confiant-bacchus.jpg">
+
+<center><img Src="https://logo-maker-api.s3.us-west-2.amazonaws.com/projects/5fbc470caf08f00d75728786/thumbnail.png?AWSAccessKeyId=AKIA6LFXYJ6BXG4EKM6A&Expires=1606261956&Signature=DnpToQJzvVnOhQZIm7rqzfVZdww%3D" height="150" width="150" alt="logo"></center>
+<span id=clockSpan></span>
+<div class="container">
+<FORM  target="_blank" method=GET action="http://www.google.com/search">
+<input TYPE=text name=q size=22 maxlength=255 value="">
+<input type=hidden name=ie value=windows-1256>
+<input type=hidden name=oe value=windows-1256>
+<input type=submit name=btnG VALUE="Google Search">
+</FORM>
+<nav>
+    <ul>
+        
+          <li><a herf="">حول</a></li>
+         
+            <li><a herf="">الأساطير</a></li>
+       
+             <li><a herf="">الرئيسية</a></li>
+    </ul>
+  </nav>
+    </div>
+        <div class="textbox">
+<Center><h1>أسطورة الأعمدة البشرية</h1></Center>
+
+<Center><h2> ‎منذ بدء التاريخ ومصطلح التضحية البشرية يتم ترديده بقوة، خاصةً لدى الفراعنة، والذين كانوا يقومون بإلقاء فتاة كل عام في نهر النيل، وأيضًا الهنود، كان يقومون بذبح أول طفلٍ لهم تقربًا للإله، وفي الصين يتم ذبح أحد التوأمين فداءً للأخر حسبما يعتقدون، لكن في اليابان، يُصبح أمر التضحية البشرية أمرًا مُختلفًا. ‎حسب المعتقدات اليابانية، استخدام الأجساد البشرية في البناء يُعطيها صلابة وقوة تحمل أكثر، ولعل قلعة ماتسوي القابعة التي بُنيت بالقرن السابع عشر في محافظة شيماني باليابان خير دليل على ذلك، فتلك القلعة التي كانت تسقط أحجارها في أثناء البناء تماسكت بعد أن قام البناة بإحضار فتاة جميله كانت في مهرجان بون وقتلها واستخدام جسدها في البناء، حيث كانت تلك الفتاة المسكينة تؤدي وصلة من الرقص حين قاموا بخطفها وتقطيعها إلى أجزاء صغيرة. ‎أسطورة الأعمدة البشرية لا تنتهي عند هذا الحد، بل يقال أيضًا أن روح تلك الفتاة الراقصة ظلت تسكن المكان، لذلك تهتز القلعة كلما قامت فتاة بالرقص قريبًا من القلعة، وقد قامت الحكومة اليابانية مؤخرًا بمنع الرقص في تلك المنطقة .  
+</h2></Center>
+<Center><img Src="https://www.japan-guide.com/g16/5801_01.jpg" height="250" width="300" alt="الاعمدة البشرية" class="card-img">
+              <div class="cards-text"></Center>
+ 
+</body>
+
+</html>

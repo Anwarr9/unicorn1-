@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <style>
+             .navbar {
+     display: flex;
+      justify-content: flex-end;
+    top: 30;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+            background-color:#8db596; 
+                     }
+        .navbar-list {
+            list-style:none;
+ 
+        }
+        a{
+            color:#d2d3c9;
+             }
+        .navbar-item { 
+            height:50xp;
+            line-height:50px;
+             text-align:center;
+   display: inline-block;
+       }
+        .main{
+ 
+            padding:10em;
+            text-align:center;
+             background-color:#af6b58;    
+            background-image: linear-gradient(62deg, #8db596 0%, #af6b58 100%);
+          
+            
+        }
+        .cards{
+            padding:5rem 2rem;
+          background-image: linear-gradient(62deg, #af6b58 0%, #556052 100%);
+        }
+        .card{
+             margin:1em;
+              width: 25vw;
+             background-color:#fcf1f1;
+                      display: inline-block;
+
+        }
+        .text{
+      color:#fff5ea;
+
+        }
+       
+    </style>
+<head>
+<title>UNICORN</title>
+</head>
+
+<body background="https://www.ralentirtravaux.com/images/mercure-confiant-bacchus.jpg">
+
+<h1>UNICORN </h1>
+<div class="container">
+<nav class="navbar">
+    <ul class="navbar-list">
+        <li class"navbar-item">
+            <a class"navbar-link" herf="">الرئيسية</a></li>
+         <li class"navbar-item">
+             <a class"navbar-link" herf="">الأساطير</a></li>
+         <li class"navbar-item">
+             <a class"navbar-link" herf="">حول</a></li>
+    </ul>
+    </nav>
+    </div>
+    <div class="main">
+        <div class="main-text">
+            <h2 class="text">علم الأساطير علم يبحث في مجموعة الأساطير المعروفة والشائعة لدى شَعْب من الشعوب وخاصّة الأساطير المتعلِّقة بالآلهة والأبطال الخرافيِّين عند شعب ما</h2>
+        </div>
+    </div>
+    </div>
+    <div class="cards">
+         <div class="card">
+<img Src="https://www.presstetouan.com/imagesnews/14591586491.JPG" height="250" width="300" alt="الأساطير العربية" class="card-img">
+              <div class="cards-text">
+        <h3> العربية</h3>
+        </div> 
+             </div> 
+         <div class="card">
+<img Src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRUjRoFKn5ZRYODHtvIL5Y97_0dPzHc34VU1A&usqp=CAU" height="250" width="370" alt="الأساطير اليابانيه" class="card-img">
+    <div class="cards-text">
+        <h3>اليابانيه</h3>
+        </div> 
+             </div> 
+         <div class="card">
+<img Src="https://www.egyres.com/wp-content/uploads/2019/03/-%D8%A7%D9%84%D8%A5%D8%BA%D8%B1%D9%8A%D9%82%D9%8A%D8%A9-e1551972795111.jpg" height="250" width="333" alt="الأساطيرلأغريقية" class="card-img">
+            
+    
+    <div class="cards-text">
+        <h3>"اليونانية"الأغريقية</h3>
+        </div> 
+             </div> 
+        <div class="card">
+<img Src="https://img.youm7.com/ArticleImgs/2018/1/17/118770-%D8%B3%D9%8A%D8%B4%D9%89-%D8%A7%D9%84%D9%81%D8%AA%D8%A7%D8%A9-%D8%A7%D9%84%D8%AD%D8%B3%D9%86%D8%A7%D8%A1.jpg" height="250" width="333" alt="الأساطير الصينية" class="card-img">
+              <div class="cards-text">
+        <h3> االصينية</h3>
+        </div> 
+             </div> 
+        <div class="card">
+<img Src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Riders_of_the_Sidhe.jpg/450px-Riders_of_the_Sidhe.jpg"  height="250" width="333" alt="الأساطير الايرلندية" class="card-img">
+              <div class="cards-text">
+        <h3> الايرلندية</h3>
+        </div> 
+             </div> 
+        <div class="card">
+<img Src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTvit-wKlr22DXuxBzQZXBNkrLduhbb0G2tqw&usqp=CAU"  height="250" width="333" alt="الأساطيرالفرعونية" class="card-img">
+              <div class="cards-text">
+        <h3> الفرعونية</h3>
+        </div> 
+             </div> 
+</body>
+
+</html>

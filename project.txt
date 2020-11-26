@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <style>
+          
+		  body {
+		  margin:0;
+		  padding:0;
+		  }
+		  .container{
+		  display:flex;
+		  flex-direction: column;
+		  background:#00587a;
+        min-height:10vh;
+		}
+		nav{
+		position:absolute;
+		top:32%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		}
+		nav ul{
+		list-style:none;
+		margin:0;
+		padding:0;
+		}
+		nav ul li {
+		display:inline-flex;
+		}
+		nav ul li a{
+		position:relative;
+		padding:2px 0 2px;
+		margin:0 25px;
+		color:#d2d3c9;
+		text-decoration:none;
+		text-transform:uppercase;
+		font-family:Audiowide;
+		font-size:16px;
+		}
+		nav ul li a:hover{
+		color:red ;
+		transition:.9s;
+		}
+		nav ul li a:after{
+		content: '';
+		position:absolute;
+		left:50%;
+		bottom:0;
+		transform:translateX(-50%) scaleX(0);
+		-webkit-transform:translateX(-50%)scaleX(0);
+		-webkit-transform-origin:50% 50%;
+		transform-origin:50% 50%;
+		width:100%
+		height:2px;
+		background-color:rgba(255,255,255,0,9);
+		-webkit-transition: transform 250ms;
+		transition:transform 250ms;
+		}
+
+  
+     
+        .main{
+ 
+            padding:2.5em;
+            text-align:center;
+             background-color:#00587a;    
+            background-image: linear-gradient(62deg, #707070 0%, #00587a 60%);
+          
+            
+        }
+        .cards{
+            padding:5rem 2rem;
+          background-image: linear-gradient(62deg, #707070 27%, #00587a 70%);
+        }
+        .card{
+             padding:2rem;
+             margin:0.2rem;
+             width: 25vw;
+             background-color:#fcf1f1;
+                      display: inline-block;
+
+        }
+        .text{
+  font-style:italic;
+  font-weight:bolder;
+        color:#fff5ea;
+        }
+		.photo:hover{
+	transform: scale(1.3);
+	z-index:2;
+	box-shadow: 0px 2px #fff;
+	}	
+
+       
+    </style>
+<head>
+<title>UNICORN</title>
+<script language="JavaScript">
+function showClickTime(){
+    var Digital=new Date()
+  var hours=Digital.getHours()
+  var minutes=Digital.getMinutes()
+  var seconds=Digital.getSeconds()
+  var clockd="AM" 
+
+
+  if (hours>12){
+   clockd="PM"
+   hours=hours-12
+  }
+  if (hours==0)
+   hours=12
+  if (minutes<=9)
+   minutes="0"+minutes
+  if (seconds<=9)
+   seconds="0"+seconds
+   var clocktime=hours+":"+minutes+":"+seconds+" "+clockd
+   clockSpan.innerHTML="<b style='font-size:12;color:white;'>"+clocktime+"</b>"
+   setTimeout("showClickTime()",1000)
+}
+window.onload=showClickTime;
+</script>
+</head>
+
+<body background="https://www.ralentirtravaux.com/images/mercure-confiant-bacchus.jpg">
+
+<center><img Src="https://logo-maker-api.s3.us-west-2.amazonaws.com/projects/5fbc470caf08f00d75728786/thumbnail.png?AWSAccessKeyId=AKIA6LFXYJ6BXG4EKM6A&Expires=1606261956&Signature=DnpToQJzvVnOhQZIm7rqzfVZdww%3D" height="150" width="150" alt="logo"></center>
+<span id=clockSpan></span>
+<div class="container">
+<nav>
+    <ul>
+        
+          <li><a herf="">حول</a></li>
+         
+            <li><a herf="">الأساطير</a></li>
+       
+             <li><a herf="">الرئيسية</a></li>
+    </ul>
+  </nav>
+    </div>
+    <div class="main">
+        <div class="main-text">
+            <h2 class="text">علم الأساطير علم يبحث في مجموعة الأساطير المعروفة والشائعة لدى شَعْب من الشعوب وخاصّة الأساطير المتعلِّقة بالآلهة والأبطال الخرافيِّين عند شعب ما</h2>
+        </div>
+    </div>
+    </div>
+    <div class="card">
+		 <div class = "photo">
+<img Src="https://www.presstetouan.com/imagesnews/14591586491.JPG" height="250" width="300" alt="الأساطير العربية" class="card-img ">
+              </div>
+			  <div class="cards-text">
+        <h3> العربية</h3>
+        </div> 
+             </div> 
+         <div class="card">
+		 <div class = "photo">
+<img Src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUjRoFKn5ZRYODHtvIL5Y97_0dPzHc34VU1A&usqp=CAU" height="250" width="333" alt="الأساطير اليابانيه" class="card-img">
+				</div>
+   <div class="cards-text">
+        <h3>اليابانيه</h3>
+        </div> 
+             </div> 
+         <div class="card">
+		 <div class = "photo">
+<img Src="https://www.egyres.com/wp-content/uploads/2019/03/-الإغريقية-e1551972795111.jpg" height="250" width="333" alt="الأساطيرلأغريقية" class="card-img">
+            </div>
+    
+    <div class="cards-text">
+        <h3>"اليونانية"الأغريقية</h3>
+        </div> 
+             </div> 
+        <div class="card">
+		<div class = "photo">
+<img Src="https://img.youm7.com/ArticleImgs/2018/1/17/118770-سيشى-الفتاة-الحسناء.jpg" height="250" width="333" alt="الأساطير الصينية" class="card-img">
+					</div>
+			 <div class="cards-text">
+        <h3> الصينية</h3>
+        </div> 
+             </div> 
+        <div class="card">
+		<div class = "photo">
+<img Src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Riders_of_the_Sidhe.jpg/450px-Riders_of_the_Sidhe.jpg"  height="250" width="333" alt="الأساطير الايرلندية" class="card-img">
+              </div>
+			  <div class="cards-text">
+        <h3> الايرلندية</h3>
+        </div> 
+             </div> 
+        <div class="card">
+		<div class = "photo">
+<img Src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvit-wKlr22DXuxBzQZXBNkrLduhbb0G2tqw&usqp=CAU"  height="250" width="333" alt="الأساطيرالفرعونية" class="card-img">
+              </div>
+			  <div class="cards-text">
+        <h3> الفرعونية</h3>
+	   </div> 
+             </div>
+</body>
+
+</html>

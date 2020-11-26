@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<mate charest="UTF-8">
+<title>UNICORN</title>
+<link rel="stylesheet" href="style.css">
+<script language="JavaScript">
+function showClickTime(){
+    var Digital=new Date()
+  var hours=Digital.getHours()
+  var minutes=Digital.getMinutes()
+  var seconds=Digital.getSeconds()
+  var clockd="AM" 
+
+
+  if (hours>12){
+   clockd="PM"
+   hours=hours-12
+  }
+  if (hours==0)
+   hours=12
+  if (minutes<=9)
+   minutes="0"+minutes
+  if (seconds<=9)
+   seconds="0"+seconds
+   var clocktime=hours+":"+minutes+":"+seconds+" "+clockd
+   clockSpan.innerHTML="<b style='font-size:12;color:white;'>"+clocktime+"</b>"
+   setTimeout("showClickTime()",1000)
+}
+window.onload=showClickTime;
+</script>
+</head>
+
+<body background="https://www.ralentirtravaux.com/images/mercure-confiant-bacchus.jpg">
+
+<center><img Src="https://logo-maker-api.s3.us-west-2.amazonaws.com/projects/5fbc470caf08f00d75728786/thumbnail.png?AWSAccessKeyId=AKIA6LFXYJ6BXG4EKM6A&Expires=1606261956&Signature=DnpToQJzvVnOhQZIm7rqzfVZdww%3D" height="150" width="150" alt="logo"></center>
+<span id=clockSpan></span>
+<div class="container">
+<FORM  target="_blank" method=GET action="http://www.google.com/search">
+<input TYPE=text name=q size=22 maxlength=255 value="">
+<input type=hidden name=ie value=windows-1256>
+<input type=hidden name=oe value=windows-1256>
+<input type=submit name=btnG VALUE="Google Search">
+</FORM>
+<nav>
+    <ul>
+        
+          <li><a herf="">حول</a></li>
+         
+            <li><a herf="">الأساطير</a></li>
+       
+             <li><a herf="">الرئيسية</a></li>
+    </ul>
+  </nav>
+    </div>
+    <div class="main">
+        <div class="main-text">
+         <h1 class="text">الاساطيرالفرعونية</h1>
+        </div>
+    </div>
+    </div>
+    <div class="cards">
+         <div class="card">
+		 <div class = "photo">
+<img Src="https://media.linkonlineworld.com/img/large/2020/7/19/2020_7_19_22_38_31_58.jpg"  height="250" width="300"alt="عروس النيل" class="card-img">
+              </div>
+			  <div class="cards-text">
+        <h3> عروس النيل</h3>
+        </div>
+         </div>
+            </div>
+	</body>
+
+</html>
